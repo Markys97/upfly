@@ -1,0 +1,121 @@
+.condition{
+    width: 100%;
+    margin-top: 108px;
+    margin-bottom: 100px;
+    @media screen and (max-width:320px) {
+        margin-top: 54px;
+    }
+    &-container{
+      // border:1px solid red;
+       position: relative;
+    }
+    &__flot-img{
+        position: absolute;
+        right: -90px;
+        bottom: -40px;
+        max-width: 249px;
+        height: auto;
+        z-index: -100;
+        @media screen and (max-width:991px) {
+            display: none;
+        }
+    }
+    &-content{
+        max-width: 1110px;
+       // border:1px solid red;
+        margin:auto;
+    }
+    &__title{
+        margin-bottom: 48px;
+        @media screen and (max-width:768px) {
+            font-size: 22px;
+            line-height: 30px;
+        }
+        @media screen and (max-width:320px) {
+            font-size: 18px;
+            line-height: 22px;
+            margin-bottom: 36px;
+        }
+    }
+    &-options{
+        display: flex;
+        @media screen and (max-width:672px) {
+           flex-direction: column;
+           row-gap: 24px;
+        }
+        &__list{
+            flex: 0 1 467px;
+           // border:1px solid red;
+            list-style: none;
+            list-style-position: inside;
+            @media screen and (max-width:672px) {
+                flex:auto;
+               
+             }
+            &:not(:first-child){
+                margin-left: 21px;
+                @media screen and (max-width:672px) {
+                    flex:auto;
+                    margin-left: 0px;
+                 }
+            }
+        }
+        &__item{
+          display: flex;
+          margin-bottom: 26px;
+          @media screen and (max-width:400px) {
+           margin-bottom: 9px;
+         }
+          &--title{
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 25px;
+            line-height: 33px;
+            @media screen and (max-width:320px) {
+                font-size: 14px;
+                line-height: 18px;
+            }
+            /* identical to box height, or 132% */
+            
+            
+            /* Сер светл */
+            
+            color: #5E5E5E;
+          }
+          
+          &-text{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 23px;
+            margin-left: 12px;
+            span{
+                color:black;
+            }
+           
+            color: #5E5E5E;
+            @media screen and (max-width:320px) {
+                font-size: 14px;
+                line-height: 18px;
+            }
+          }
+            
+        }
+        &__icon{
+            display: block;
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
+
+.bar{
+    background: #9CDAF4;
+    opacity: .5;
+    margin-bottom: 58px;
+    @media screen and (max-width:320px) {
+       display: none;
+    }
+}

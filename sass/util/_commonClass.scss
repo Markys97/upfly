@@ -1,0 +1,144 @@
+._container{
+    max-width: 1110px;
+    margin: auto;
+    padding: 0 20px;
+    @media screen  and (max-width:768px){
+        padding: 0 10px;
+     }
+}
+._text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    /* or 140% */
+    
+    
+    /* Сер светл */
+    
+    color: #5E5E5E;
+}
+
+._title{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 51px;
+    /* or 116% */
+   
+    
+    color: #FFFFFF;
+    @media screen and (max-width:768px) {
+        
+        font-size: 31px;
+        line-height: 37px;
+        
+    }
+
+    @media screen and (max-width:320px) {
+        font-weight: 800;
+        font-size: 22px;
+        line-height: 27px;
+        width: 100%;
+        
+    }
+    
+}
+._text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    /* or 140% */
+    
+    text-align: center;
+    
+    /* Сер светл */
+    
+    color: #5E5E5E;
+    text-align: left;
+
+}
+._button{
+ display: inline-flex;
+ justify-items: center;
+ background: #000;
+ background: linear-gradient(90deg, rgba(245, 165, 10, 0.5) 2.39%,
+  rgba(242, 191, 94, 0.5) 45.53%, rgba(245, 165, 10, 0.5) 94.43%), #F5A50A;
+border-radius: 31px;
+&--blue{
+    background: linear-gradient(90deg, rgba(65, 153, 191, 0.5) 2.39%,
+     rgba(156, 218, 244, 0.5) 45.53%, rgba(65, 153, 191, 0.5) 94.43%), #52C2F2;
+}
+
+ 
+ &__text{
+     display: block;
+     padding-top: 15px;
+     padding-left:18px;
+     padding-right: 30px;
+     font-family: Montserrat;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 22px;
+     line-height: 28px;
+     @media screen and (max-width:320px) {
+        font-size: 18px;
+        line-height: 24px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+     }
+     /* identical to box height, or 127% */
+     @media screen and (max-width:768px) {
+        font-size: 18px;
+        line-height: 24px;
+     }
+     @media screen and (max-width:320px) {
+        width: 100%;
+     }
+     
+     
+     color: #FFFFFF;
+ }
+ img{
+     margin:5px;
+     @media screen and (max-width:320px) {
+       display: none;
+    }
+ }
+}
+._title-two{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 43px;
+    /* identical to box height, or 123% */
+    
+    text-align: center;
+    
+    /* Голуб темн */
+    
+    color: #4199BF;
+    &--light{
+        color: #52C2F2;
+    }
+}
+._title-three{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    /* or 135% */
+    
+    text-align: center;
+    
+    /* Голуб темн */
+    
+    color: #4199BF;
+}

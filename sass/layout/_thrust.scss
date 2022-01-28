@@ -1,0 +1,102 @@
+.thrust{
+    width: 100%;
+    &-container{
+        //border:1px solid red;
+    }
+    &__title{
+        margin-bottom: 60px;
+        @media screen and (max-width:768px) {
+           
+          
+            margin-bottom: 48px;
+        }
+        @media screen and (max-width:651px) {
+           
+          
+            margin-bottom: 36px;
+        }
+    }
+    &__grid{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 43px;
+        row-gap: 60px;
+        @media screen and (max-width:651px) {
+            grid-template-columns: 1fr;
+            row-gap: 24px;
+
+        }
+    }
+    &__col{
+        //border:1px solid red;
+    }
+    &__img{
+        display: block;
+        margin:auto;
+        margin-bottom: 30px;
+    }
+    &__title-col{
+        position: relative;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 27px;
+        /* or 135% */
+        
+        text-align: center;
+        
+        /* Голуб темн */
+        
+        color: #4199BF;
+        margin-bottom: 18px;
+        @media screen and (max-width:768px) {
+           
+          
+            line-height: 23px;
+        }
+        @media screen and (max-width:651px) {
+           
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+    &__text{
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 33px;
+        text-align: center;
+        @media screen and (max-width:768px) {
+           
+          
+            margin-bottom: 20px;
+        }
+        @media screen and (max-width:651px) {
+           
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 12px;
+        }
+        
+    }
+    &__link{
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height, or 122% */
+        
+        
+        text-decoration-line: underline;
+        
+        /* Голуб темн */
+        
+        color: #4199BF;
+    }
+    &__button{
+       position: relative;
+       left: 50%;
+       transform: translateX(-50%);
+    }
+}

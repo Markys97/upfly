@@ -1,0 +1,131 @@
+.specialist{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 124px;
+    @media screen and (max-width: 642px) {
+        margin-bottom: 72px;
+    };
+    @media screen and (max-width: 642px) {
+            
+        margin-bottom: 65px;
+        
+    };
+    &-container{
+        max-width: 1236px;
+        margin:auto;
+       // border:1px solid red;
+        display: flex;
+        padding:0 33px;
+    }
+    &__img-block{
+        margin-right: 47px;
+        flex: 1 1 524px;
+       // border:1px solid red;
+        @media screen and (max-width:768px) {
+            display: none;
+        };
+    }
+    &__infos-block{
+        flex: 1 1 665px;
+       // border: 1px solid red;
+    }
+    &__img{
+        width: 100%;
+        height: auto;
+       
+    }
+    &__title{
+        text-align: left;
+        margin-bottom: 60px;
+        @media screen and (max-width: 476px) {
+            
+           
+           
+            
+            font-size: 20px;
+            line-height: 26px;
+        };
+    }
+    &__subtitle{
+        font-family: Century Gothic;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 24px;
+        color: #5E5E5E;
+        margin-bottom: 24px;
+        @media screen and (max-width: 642px) {
+            
+            font-size: 20px;
+            line-height: 26px;
+
+            
+            
+        };
+        @media screen and (max-width: 642px) {
+            
+           
+            font-size: 16px;
+            line-height: 20px;
+            
+
+        };
+    }
+    &__text{
+        margin-bottom: 45px;
+        @media screen and (max-width: 600px) {
+            
+            font-size: 18px;
+            line-height: 26px;
+            
+        };
+        @media screen and (max-width: 320px) {
+            
+            
+            line-height: 23px;
+            
+        };
+    }
+
+    &-experience{
+        width: 100%;
+        //border:1px solid red;
+        display: flex;
+        justify-content: space-between;
+        @media screen and (max-width: 642px) {
+          flex-direction: column;
+          align-items: center;
+        };
+        
+
+        
+        &__item{
+            flex:0 1 212px;
+            //border:1px solid red;
+            @media screen and (max-width: 642px) {
+                flex:auto;
+                width: 280px;
+                margin-bottom: 24px;
+                
+                
+              };
+        }
+        &__title{
+            text-align: center;
+            font-family: 'Century Gothic';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 35px;
+            line-height: 42px;
+            color: #F2BF5E;
+            margin-bottom: 18px;
+            text-align: center;
+        }
+        &__text{
+            text-align: center;
+            font-size: 16px;
+            line-height: 20px;
+        }
+
+    }
+}
